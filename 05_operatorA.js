@@ -18,7 +18,8 @@ console.log(`*************** step 2 *************`);
 var givenString = "I am Angular Developer";
 function string(){
     var strLen=givenString.length;
-    var splitStr=givenString.split(" ");
+    var splitStr =givenString.split(" ");
+    console.log(splitStr);
     var dividStr=strLen/splitStr.length;
     console.log(`2.1  Length of string is: ${strLen}   String after division: ${dividStr}`);
     var totalWordStr=strLen*splitStr.length;
